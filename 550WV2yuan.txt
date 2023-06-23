@@ -2,7 +2,7 @@ local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
     Title = "脚本测试员",
     Text = "『十字架』",
-    Duration = 5, 
+    Duration = 10, 
 })
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
@@ -169,7 +169,9 @@ local about = Window:MakeTab({
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
-
+local Section = Tab:AddSection({
+	Name = "欢迎请使用550W V3"
+})
 about:AddParagraph("由550W V2 支持","")
 about:AddParagraph("免费脚本 请勿去圈钱","")
 about:AddParagraph("作者很辛苦","")
@@ -177,9 +179,6 @@ about:AddParagraph("作者QQ：1072042657","QQ群：781759165")
 about:AddParagraph("作者频道：868h663073","")
 about:AddParagraph("还不快双击加关注。","")
 about:AddParagraph("技术支持：HUA作者，飞舞幻想作者","")
-local Section = Tab:AddSection({
-	Name = "前作"
-})
 Tab:AddButton({
 	Name = "550W V3",
 	Callback = function()
