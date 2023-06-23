@@ -178,20 +178,6 @@ about:AddParagraph("作者频道：868h663073","")
 about:AddParagraph("还不快双击加关注。","")
 about:AddParagraph("技术支持：HUA作者，飞舞幻想作者","")
 
-Tab:AddButton({
-	Name = "550W V3",
-	Callback = function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/tangxianchun/550W-3/main/550WV3yuan.txt"))()
-end
-})
-
-Tab:AddButton({
-	Name = "550W V3",
-	Callback = function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/tangxianchun/550W-3/main/550WV3yuan.txt"))()
-end
-})
-
 local Tab = Window:MakeTab({
     Name = "玩家",
     Icon = "rbxassetid://4483345998",
