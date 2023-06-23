@@ -1,5 +1,11 @@
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
+    Title = "脚本测试员",
+    Text = "『十字架』",
+    Duration = 5, 
+})
+local CoreGui = game:GetService("StarterGui")
+CoreGui:SetCore("SendNotification", {
     Title = "550W系列 V2",
     Text = "你没有被授权进入方舟空间站(在建)，即将被踢出",
     Duration = 5, 
