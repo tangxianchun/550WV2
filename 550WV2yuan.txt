@@ -177,6 +177,12 @@ about:AddParagraph("作者QQ：1072042657","QQ群：781759165")
 about:AddParagraph("作者频道：868h663073","")
 about:AddParagraph("还不快双击加关注。","")
 about:AddParagraph("技术支持：HUA作者，飞舞幻想作者","")
+local CoreGui = game:GetService("StarterGui")
+CoreGui:SetCore("SendNotification", {
+    Title = "550W系列 V1",
+    Text = "你没有被授权进入方舟空间站(在建)，即将被踢出",
+    Duration = 5, 
+})
 local Tab = Window:MakeTab({
     Name = "玩家",
     Icon = "rbxassetid://4483345998",
