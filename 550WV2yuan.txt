@@ -177,6 +177,9 @@ about:AddParagraph("作者QQ：1072042657","QQ群：781759165")
 about:AddParagraph("作者频道：868h663073","")
 about:AddParagraph("还不快双击加关注。","")
 about:AddParagraph("技术支持：HUA作者，飞舞幻想作者","")
+local Section = Tab:AddSection({
+	Name = "前作"
+})
 Tab:AddButton({
 	Name = "550W V3",
 	Callback = function()
