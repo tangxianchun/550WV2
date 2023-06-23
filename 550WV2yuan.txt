@@ -1,20 +1,20 @@
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
-    Title = "550W系列 V1",
+    Title = "550W系列 V2",
     Text = "你没有被授权进入方舟空间站(在建)，即将被踢出",
     Duration = 5, 
 })
 wait(2)
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
-    Title = "550W系列V1",
+    Title = "550W系列V2",
     Text = "五",
     Duration = 5, 
 })
 wait(1)
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
-    Title = "550W系列 V1",
+    Title = "550W系列 V2",
     Text = "四",
     Duration = 5, 
 })
@@ -35,21 +35,21 @@ CoreGui:SetCore("SendNotification", {
 wait(1)
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
-    Title = "550W系列 V1",
+    Title = "550W系列 V2",
     Text = "三",
     Duration = 5, 
 })
 wait(1)
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
-    Title = "550W V1",
+    Title = "550W V2",
     Text = "检测到未知来源，正在维护",
     Duration = 5, 
 })
 wait(1)
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
-    Title = "550W系列 V1",
+    Title = "550W系列 V2",
     Text = "二",
     Duration = 5, 
 })
@@ -63,22 +63,22 @@ CoreGui:SetCore("SendNotification", {
 wait(1)
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
-    Title = "550W系列 V1",
+    Title = "550W系列 V2",
     Text = "未知来源已消失，重新启动",
     Duration = 5, 
 })
 wait(1)
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
-    Title = "550W系列 V1",
+    Title = "550W系列 V2",
     Text = "一",
     Duration = 5, 
 })
 wait(1)
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
-    Title = "550W系列 V1",
-    Text = "获得高级紧急授权，正在启动",
+    Title = "550W系列 V2",
+    Text = "收到高级紧急授权，正在启动",
     Duration = 5, 
 })
 wait(2)
@@ -152,19 +152,19 @@ Start = tick()
 Heartbeat:Connect(HeartbeatUpdate)
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
-    Title = "550W V1",
+    Title = "550W V2",
     Text = "加载成功，欢迎进入方舟空间站(在建)",
     Duration = 5, 
 })
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({IntroText = "550W系列 V1测试",Name = "550W系列 V1测试版", HidePremium = false, SaveConfig = true, ConfigFolder = ""})
+local Window = OrionLib:MakeWindow({IntroText = "550W系列 V2测试",Name = "550W系列 V2测试版", HidePremium = false, SaveConfig = true, ConfigFolder = ""})
 local about = Window:MakeTab({
     Name = "必看公告",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
-about:AddParagraph("由550W V1 支持","")
+about:AddParagraph("由550W V2 支持","")
 about:AddParagraph("免费脚本 请勿去圈钱","")
 about:AddParagraph("作者很辛苦","")
 about:AddParagraph("作者QQ：1072042657","QQ群：781759165")
