@@ -267,6 +267,12 @@ Tab:AddButton({
      loadstring(game:HttpGet("https://raw.githubusercontent.com/tangxianchun/550W_/main/550W_V3JM.txt"))()
   	end    
 })
+Tab:AddButton({
+	Name = "550 V4(有白名单)仅限测试人员使用",
+	Callback = function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/tangxianchun/550W_/main/550W-V4.txt"))()
+  	end    
+})
 local Tab = Window:MakeTab({
     Name = "玩家",
     Icon = "rbxassetid://4483345998",
