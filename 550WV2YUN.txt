@@ -25,7 +25,7 @@ if _G.whitelist==true then
 
 wait(3)
 CoreGui:SetCore("SendNotification", {
-    Title = "验证结果.",
+    Title = "验证结果",
     Text = a.."验证身份成功等待时间长一点",
     Duration = 5,
 })
@@ -33,7 +33,7 @@ wait(5)
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
     Title = "550W系列 V2",
-    Text = "你没有被授权进入方舟空间站(在建)，即将被踢出",
+    Text = "你有资格进入方舟空间站",
     Duration = 5, 
 })
 wait(2)
@@ -50,20 +50,7 @@ CoreGui:SetCore("SendNotification", {
     Text = "四",
     Duration = 5, 
 })
-wait(1)
-local CoreGui = game:GetService("StarterGui")
-CoreGui:SetCore("SendNotification", {
-    Title = "『M O S S』",
-    Text = "正在接入",
-    Duration = 5, 
-})
-wait(1)
-local CoreGui = game:GetService("StarterGui")
-CoreGui:SetCore("SendNotification", {
-    Title = "『M O S S』",
-    Text = "正在获取授权",
-    Duration = 5, 
-})
+
 wait(1)
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
@@ -71,13 +58,7 @@ CoreGui:SetCore("SendNotification", {
     Text = "三",
     Duration = 5, 
 })
-wait(1)
-local CoreGui = game:GetService("StarterGui")
-CoreGui:SetCore("SendNotification", {
-    Title = "550W V2",
-    Text = "检测到未知来源，正在维护",
-    Duration = 5, 
-})
+
 wait(1)
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
@@ -85,20 +66,7 @@ CoreGui:SetCore("SendNotification", {
     Text = "二",
     Duration = 5, 
 })
-wait(1)
-local CoreGui = game:GetService("StarterGui")
-CoreGui:SetCore("SendNotification", {
-    Title = "『M O S S』",
-    Text = "获取授权成功",
-    Duration = 5, 
-})
-wait(1)
-local CoreGui = game:GetService("StarterGui")
-CoreGui:SetCore("SendNotification", {
-    Title = "550W系列 V2",
-    Text = "未知来源已消失，重新启动",
-    Duration = 5, 
-})
+
 wait(1)
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
@@ -110,7 +78,7 @@ wait(1)
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
     Title = "550W系列 V2",
-    Text = "获得高级紧急授权，正在启动",
+    Text = "启动成功",
     Duration = 5, 
 })
 wait(2)
@@ -1325,9 +1293,9 @@ loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\
 local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
-    Title = "验证失败",
-    Text = "你并没有白名单",
-    Duration = 10,   
+    Title = "验证成功",
+    Text = "你有白名单",
+    Duration = 5,   
 
 })
 end
