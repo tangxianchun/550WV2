@@ -234,6 +234,12 @@ Tab:AddButton({
      loadstring(game:HttpGet("https://raw.githubusercontent.com/tangxianchun/550W_/main/550W-V4.txt"))()
   	end    
 })
+Tab:AddButton({
+	Name = "550 V5 拓展功能",
+	Callback = function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/tangxianchun/550W-V5/main/550W-V5.txt"))()
+  	end    
+})
 local Tab = Window:MakeTab({
     Name = "玩家",
     Icon = "rbxassetid://4483345998",
