@@ -4,7 +4,7 @@ CoreGui:SetCore("SendNotification", {
     Text = "781759165",
     Duration = 2999, 
 })
-wait(4)
+wait(2)
 local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
@@ -214,7 +214,7 @@ CoreGui:SetCore("SendNotification", {
 })
 
 local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/qqT4Ek4t')))()
-local Window = OrionLib:MakeWindow({IntroText = "",Name = "550W系列 V2测试版", HidePremium = false, SaveConfig = true, ConfigFolder = "550W V2"})
+local Window = OrionLib:MakeWindow({IntroText = "550W V2",Name = "", HidePremium = false, SaveConfig = true, ConfigFolder = "550W V2"})
 local about = Window:MakeTab({
     Name = "必看公告",
     Icon = "rbxassetid://4483345998",
