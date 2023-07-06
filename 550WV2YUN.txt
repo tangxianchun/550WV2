@@ -41,27 +41,36 @@ end
 if _G.whitelist==true then
     local CoreGui = game:GetService("StarterGui")
 
-wait(3)
+wait(1)
 CoreGui:SetCore("SendNotification", {
     Title = "验证结果",
     Text = a.."验证身份成功等待时间长一点",
     Duration = 5,
 })
-wait(5)
+
+wait(2)
+local CoreGui = game:GetService("StarterGui")
+CoreGui:SetCore("SendNotification", {
+    Title = "🇹「㊐   ㊊』🇿",
+    Text = "云端加速启动中",
+    Duration = 5, 
+})
+
+wait(2)
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
     Title = "550W系列 V2",
-    Text = "你有资格进入方舟空间站",
+    Text = "你有资格进入方舟空间站，加速了请坐好",
     Duration = 5, 
 })
-wait(2)
+wait(1)
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
     Title = "550W系列V2",
     Text = "五",
     Duration = 5, 
 })
-wait(1)
+
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
     Title = "550W系列 V2",
@@ -69,7 +78,6 @@ CoreGui:SetCore("SendNotification", {
     Duration = 5, 
 })
 
-wait(1)
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
     Title = "550W系列 V2",
@@ -77,7 +85,6 @@ CoreGui:SetCore("SendNotification", {
     Duration = 5, 
 })
 
-wait(1)
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
     Title = "550W系列 V2",
@@ -85,21 +92,20 @@ CoreGui:SetCore("SendNotification", {
     Duration = 5, 
 })
 
-wait(1)
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
     Title = "550W系列 V2",
     Text = "一",
     Duration = 5, 
 })
-wait(1)
+
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
     Title = "550W系列 V2",
     Text = "启动成功",
     Duration = 5, 
 })
-wait(2)
+
 print("Anti Afk On")
 		local vu = game:GetService("VirtualUser")
 		game:GetService("Players").LocalPlayer.Idled:connect(function()
@@ -113,14 +119,14 @@ CoreGui:SetCore("SendNotification", {
     Text = "被踢出服务器的概率已降低",
     Duration = 5,
 })
-wait(2)
+
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
     Title = "启动成功",
     Text = "您好"..game.Players.LocalPlayer.Name.."，欢迎使用550W系列脚本",
     Duration = 5,
 })
-wait(2)
+
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
     Title = "正在接入方舟空间站",
@@ -191,7 +197,7 @@ CoreGui:SetCore("SendNotification", {
 })
 
 local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/qqT4Ek4t')))()
-local Window = OrionLib:MakeWindow({IntroText = "550W系列 V2测试",Name = "550W系列 V2测试版", HidePremium = false, SaveConfig = true, ConfigFolder = ""})
+local Window = OrionLib:MakeWindow({IntroText = "550",Name = "550W系列 V2测试版", HidePremium = false, SaveConfig = true, ConfigFolder = "550W V2"})
 local about = Window:MakeTab({
     Name = "必看公告",
     Icon = "rbxassetid://4483345998",
