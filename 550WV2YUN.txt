@@ -18,6 +18,9 @@ local a=tostring(game.Players.LocalPlayer.Character);
 if a=="zkosjsiw"then
 _G.whitelist=true
 
+elseif a=="qjddie4514"then
+_G.whitelist=true
+
 elseif a=="114514phz129"then
 _G.whitelist=true
 
@@ -214,7 +217,7 @@ CoreGui:SetCore("SendNotification", {
 })
 
 local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/qqT4Ek4t')))()
-local Window = OrionLib:MakeWindow({IntroText = "550W V2",Name = "", HidePremium = false, SaveConfig = true, ConfigFolder = "550W V2"})
+local Window = OrionLib:MakeWindow({IntroText = "550W V2",Name = "550", HidePremium = false, SaveConfig = true, ConfigFolder = "550W V2"})
 local about = Window:MakeTab({
     Name = "必看公告",
     Icon = "rbxassetid://4483345998",
