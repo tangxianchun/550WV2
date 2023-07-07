@@ -28,6 +28,9 @@ _G.whitelist=true
 elseif a=="567yydc"then
 _G.whitelist=true
 
+elseif a=="function963"then
+_G.whitelist=true
+
 elseif a=="Bluewitchme"then
 _G.whitelist=true
 
