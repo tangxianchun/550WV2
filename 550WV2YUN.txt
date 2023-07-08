@@ -37,6 +37,12 @@ _G.whitelist=true
 elseif a=="qjddie4514"then
 _G.whitelist=true
 
+elseif a=="delta_China"then
+_G.whitelist=true
+
+elseif a=="0997ikun"then
+_G.whitelist=true
+
 elseif a=="114514phz129"then
 _G.whitelist=true
 
