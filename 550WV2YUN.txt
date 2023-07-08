@@ -58,6 +58,9 @@ _G.whitelist=true
 elseif a=="Zsjcb1005"then
 _G.whitelist=true
 
+elseif a=="cclb_123xh"then
+_G.whitelist=true
+
 elseif a=="plmnkoijbvhuygcxfty"then
 _G.whitelist=true
 
