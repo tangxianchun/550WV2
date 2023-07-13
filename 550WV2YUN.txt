@@ -67,6 +67,8 @@ elseif a=="fhscnxdznxgz"then
 _G.whitelist=true
 elseif a=="rtyyydshahaha"then
 _G.whitelist=true
+elseif a=="BBB989898988"then
+_G.whitelist=true
 elseif a=="1235yangTianyu"then
 _G.whitelist=true
 elseif a=="moyingyo"then
