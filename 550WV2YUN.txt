@@ -77,8 +77,6 @@ elseif a=="cnmlgbdpgt"then
 _G.whitelist=true
 elseif a=="gfj233958"then
 _G.whitelist=true
-elseif a=="6fhg51"then
-_G.whitelist=true
 elseif a=="qwrtuiplkjhgfdsa"then
 _G.whitelist=true
 elseif a=="shadiao_yazi"then
