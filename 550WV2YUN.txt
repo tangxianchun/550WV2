@@ -125,6 +125,8 @@ elseif a=="rushshshseek9"then
 _G.whitelist=true
 elseif a=="tangxianchu"then
 _G.whitelist=true
+elseif a=="CN_dyc265"then
+_G.whitelist=true
 elseif a=="gvgggcfftfrreww"then
 _G.whitelist=true
 end
