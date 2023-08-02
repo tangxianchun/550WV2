@@ -51,6 +51,8 @@ if a=="zkosjsiw"then
 _G.whitelist=true
 elseif a=="jinitaimei1y55555"then
 _G.whitelist=true
+elseif a=="ty13725038308"then
+_G.whitelist=true
 elseif a=="SDjdkskes"then
 _G.whitelist=true
 elseif a=="QMPW147258"then
