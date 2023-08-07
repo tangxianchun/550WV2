@@ -107,6 +107,8 @@ elseif a=="114514phz129"then
 _G.whitelist=true
 elseif a=="plmnkoijbvhuygcxfty"then
 _G.whitelist=true
+elseif a=="fengwenshuopp"then
+_G.whitelist=true
 elseif a=="567yydc"then
 _G.whitelist=true
 elseif a=="function963"then
