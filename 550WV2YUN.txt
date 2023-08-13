@@ -67,6 +67,12 @@ elseif a=="6fhg51"then
 _G.whitelist=true
 elseif a=="6331nhdi"then
 _G.whitelist=true
+elseif a=="xwzz123456aq"then
+_G.whitelist=true
+elseif a=="SunjunyuSSS"then
+_G.whitelist=true
+elseif a=="cmhehebeb"then
+_G.whitelist=true
 elseif a=="fhscnxdznxgz"then
 _G.whitelist=true
 elseif a=="951357nvjn"then
