@@ -143,6 +143,9 @@ elseif a=="CN_dyc265"then
 _G.whitelist=true
 elseif a=="gvgggcfftfrreww"then
 _G.whitelist=true
+elseif a=="XHT147"then
+_G.whitelist=true
+
 end
 if _G.whitelist==true then
 
