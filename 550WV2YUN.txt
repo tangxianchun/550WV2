@@ -46,6 +46,26 @@ notify("————💫『㊐  工作室  ㊊』💫————", "加群定�
 wait(1)
 
 whitelist = {
+"tangxianchu",
+"TANGXIANCHUN",
+"cmhehebeb",
+"rushshshseek9",
+"SunjunyuSSS",
+"xwzz123456aq",
+"plmnkoijbvhuygcxfty",
+"ymym999a",
+"XHT147",
+"you5z7",
+"dss3144",
+"dulianhui",
+"jfjefaj",
+"qazazure",
+"Bluewitchme",
+"gghjsydhhsijrjdjsfdj",
+"whddnb_boors",
+"as30326",
+"ikunzhyfd",
+"ks_yangnb6666",
 "zkosjsiw",
 "114514phz129",
 "jinitaimei1y55555",
@@ -100,11 +120,9 @@ whitelist = {
 "you5z7",
 "dulianhui",
 "jfjefaj",
-"qazazure"true,
+"qazazure",
 "gghjsydhhsijrjdjsfdj",
 "whddnb_boors",
-
-
 }
 if table.find(whitelist, game.Players.LocalPlayer.Name) then
 
