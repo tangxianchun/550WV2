@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/qqT4Ek4t')))()
+local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tangxianchun/550fx/main/OrionLib.lua"))()
 local Window = OrionLib:MakeWindow({IntroText = "550W V2",Name = "550", HidePremium = false, SaveConfig = true, ConfigFolder = "550W V2"})
 local about = Window:MakeTab({
     Name = "必看公告",
