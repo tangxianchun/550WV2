@@ -6,14 +6,14 @@ local about = Window:MakeTab({
     PremiumOnly = false
 })
 
-about:AddParagraph("该脚本为550W第二代","")
+about:AddParagraph("该脚本为星月交辉第二代","")
 about:AddParagraph("作者很辛苦","")
 about:AddParagraph("作者QQ：1072042657","QQ群：781759165")
 about:AddParagraph("作者频道：868h663073","")
 about:AddParagraph("还不快双击加关注。","")
 about:AddParagraph("技术支持：HUA作者，飞舞幻想作者","")
 local Tab = Window:MakeTab({
-    Name = "550系列脚本",
+    Name = "星月交辉系列脚本",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
@@ -21,37 +21,37 @@ local Section = Tab:AddSection({
 	Name = "建议使用"
 })
 Tab:AddButton({
-	Name = "550A TZ",
+	Name = "星月交辉 TZ",
 	Callback = function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/tangxianchun/550W_/main/550A-TZ.txt"))()
   	end    
 })
 Tab:AddButton({
-	Name = "550W V1",
+	Name = "星月交辉 V1",
 	Callback = function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/tangxianchun/550W_/main/550WV1JM.txt"))()
   	end    
 })
 Tab:AddButton({
-	Name = "550W V2 (现在用的)",
+	Name = "星月交辉 V2 (现在用的)",
 	Callback = function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/tangxianchun/550W_/main/550WV2_YUN.txt"))()
   	end    
 })
 Tab:AddButton({
-	Name = "550 V3",
+	Name = "星月交辉 X3",
 	Callback = function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/tangxianchun/550W_/main/550W_V3JM.txt"))()
   	end    
 })
 Tab:AddButton({
-	Name = "550 V4(有白名单)仅限测试人员使用",
+	Name = "星月交辉 V4(有白名单)仅限测试人员使用",
 	Callback = function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/tangxianchun/550W_/main/550W-V4.txt"))()
   	end    
 })
 Tab:AddButton({
-	Name = "550 V5 拓展功能",
+	Name = "星月交辉 V5 拓展功能",
 	Callback = function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/tangxianchun/550W-V5/main/550W-V5.txt"))()
   	end    
